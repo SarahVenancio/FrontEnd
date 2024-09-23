@@ -1,0 +1,73 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: sans-serif;
+}
+
+/* Títulos */
+.titulo{
+    font-family: "Inter", "Arial Black";
+    font-size: x-large;
+    text-align: center;
+}
+.titulo2{
+    font-family: "Inter","Arial Black";
+    font-size: medium;
+}
+.paragrafo{
+    font-family: "Inter","Arial";
+    font-size: large;
+}
+.legenda{
+    font-family: "Inter","Arial Narrow";
+    font-size: small;
+}
+
+/* Cores */
+.cor1{
+    color: #63b3dd;
+}
+.cor2{
+    color: #feed8a;
+}
+.cor3{
+    color: #163545;
+}
+.cor4{
+    color: #d5b300;
+}
+.cor5{
+    color: #333;
+}
+.cor6{
+    color: #098fa9;
+}
+
+/* Display */
+.linha{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: black 2px solid;
+}
+
+.caixa{
+    height: 100px;
+    border:#333 1px dashed;
+}
+
+.grande{
+    width: 100%;
+}
+
+.media{
+    width: 50%;
+}
+
+.pequena{
+    width: 33.3%;
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+    </style>
+    <title>Cê viu? - Itapeva Eventos</title>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <header>
+      <!-- Menu -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand text-info-emphasis" href="#"><i class="bi bi-balloon-heart"></i> Cê viu?</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Início</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Eventos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Criar</a></li>
+                  <li><a class="dropdown-item" href="#">Editar</a></li>
+                  <li><a class="dropdown-item" href="#">Excluir</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Quem somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- Fim do menu -->
+    </header>
+    <main>
+      <!-- Carrossel -->
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/carrossel/1.png" class="d-block w-100" alt="Imagem comemorativa dos 255 anos de Itapeva, com a palavra 'Parabéns Itapeva' em destaque, estrelas douradas e uma vista da cidade. O texto inferior diz '20 de setembro, 255 anos de história. Que continue a crescer e a encantar a todos com sua beleza, cultura e progresso'.">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/carrossel/2.png" class="d-block w-100" alt="Fundo azul escuro com fantasmas brancos e morcegos laranja voando. A frase 'Feliz Halloween' em letras grandes e coloridas se destaca no centro da imagem. No canto inferior direito, aparece a localização 'Itapeva/SP'.">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/carrossel/3.png" class="d-block w-100" alt="Pôster de um teatro com um casal de atores em um palco iluminado. O título da peça é 'A História de Dois Amantes' e a data (19 de fevereiro de 2025) e local da apresentação (Cal. Dr. Pinheiro, 442 - Centro) estão indicados. No canto superior esquerdo, há o logo do 'Teatro de Bolso'. A frase 'Venha assistir' convida o público para o evento.">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Fim do carrossel -->
+
+       <div class="container my-2">
+        <!-- Destaques da semana -->
+        <h1 class="display-3 text-center text-info-emphasis">DESTAQUES DA SEMANA</h1>
+        <div class="row g-2">
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img src="assets/img/cards_destaque/1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Madrinhas</h5>
+                <p class="card-text">Data: 17/08/2024 <br> Horário: 10hrs <br> Local: Itapeva/SP</p>
+                <a href="#" class="btn btn-primary">Visualizar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img src="assets/img/cards_destaque/2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Dia da Dança</h5>
+                <p class="card-text">Data: 29/04/2024 <br> Horário: 14hrs <br> Local: Itapeva/SP</p>
+                <a href="#" class="btn btn-primary">Visualizar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img src="assets/img/cards_destaque/3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">FEAPI 2024</h5>
+                <p class="card-text">Data: 19/11/2024 <br> Horário: 20hrs <br> Local: Itapeva/SP</p>
+                <a href="#" class="btn btn-primary">Visualizar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img src="assets/img/cards_destaque/4.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Halloween</h5>
+                <p class="card-text">Data: 31/10/2024 <br> Horário: 21hrs <br> Local: Itapeva/SP</p>
+                <a href="#" class="btn btn-primary">Visualizar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fim dos destaques da semana -->
+
+        <!-- Fotos -->
+         <h1 class="display-3 text-center text-info-emphasis my-3">FOTOS</h1>
+         <div class="row g-2">
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img src="assets/img/fotos/1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Evento 1</h5>
+                <a href="#" class="btn btn-primary">Mais fotos</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img src="assets/img/fotos/2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Evento 2</h5>
+                <a href="#" class="btn btn-primary">Mais fotos</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img src="assets/img/fotos/3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Evento 3</h5>
+                <a href="#" class="btn btn-primary">Mais fotos</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img src="assets/img/fotos/4.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Evento 4</h5>
+                <a href="#" class="btn btn-primary">Mais fotos</a>
+              </div>
+            </div>
+          </div>
+         </div>
+        <!-- Fim de fotos -->
+       </div>
+    </main>
+    <footer style="background-color: #098fa9; color: white;">
+      <div class="row">
+        <div class="col-12 col-md-4 text-center">
+          <p>Contato: (15) 99999-9999</p>
+        </div>
+        <div class="col-12 col-md-4 text-center">
+          <p>Cê viu? &copy; Copyright 2024</p>
+        </div>
+        <div class="col-12 col-md-4 text-center">
+          <p>Feito por Sarah Dias Venâncio</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
