@@ -1,5 +1,8 @@
 ### Curso Técnico de Desenvolvimento de Sistemas - SENAI Itapeva
-# Cê viu? - Itapeva Eventos
+<h1 align="center">Cê viu? - Itapeva Eventos</h1>
+
+![Imagem de capa](/assets/readme/ITAPEVA%20EVENTOS.png)
+
 **Descrição:**
 Este projeto tem como objetivo apresentar um protótipo para um site de eventos culturais em Itapeva/SP.
 ## Índice
