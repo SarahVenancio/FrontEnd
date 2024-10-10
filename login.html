@@ -54,7 +54,6 @@
                 <a class="nav-link" href="#" style="color: white;">Contato</a>
               </li>
             </ul>
-            <a href="login.html"><button class="btn btn-outline-light p-2 m-3" type="submit">LOGIN</button></a>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Search">
               <button class="btn btn-outline-light" type="submit">Pesquisar</button>
@@ -66,38 +65,31 @@
     </header>
     <main class="flex-fill py-5" style="background-color: #bfe4ec;">
       <div class="container ">
-        <h1 class="text-center pt-4 mb-4">Criar Evento Cultural</h1>
+        <h1 class="text-center pt-4 mb-4">Cadastre-se</h1>
         <form id="form-evento">
           <!-- Início do formulário -->
           <div class="form-floating mb-3">
             <input type="text" class="form-control" id="floatingInput" placeholder="Título do evento" required/>
-            <label for="floatingInput" class="form-label">Título do Evento</label>
-          </div>
-          <div class="form-floating mb-3">
-            <textarea class="form-control" id="floatingTextarea" placeholder="Descrição"></textarea>
-            <label for="floatingTextarea" class="form-label">Descrição</label>
+            <label for="floatingInput" class="form-label">Nome completo</label>
           </div>
           <div class="row mb-3">
             <div class="col-md-6">
-              <label for="data" class="form-label">Data do Evento</label>
+              <label for="data" class="form-label">Data de Nascimento</label>
               <input type="date" class="form-control" id="data" required />
             </div>
             <div class="col-md-6">
-              <label for="horario" class="form-label">Horário do Evento</label>
-              <input type="time" class="form-control" id="horario" required />
+              <label for="floatingInput" class="form-label">Celular</label>
+              <input type="tel" class="form-control" id="floatingInput" placeholder="(15) 99999-9999" required/>
             </div>
           </div>
           <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingInput" placeholder="Local do evento" required/>
-            <label for="floatingInput" class="form-label">Local do Evento</label>
-          </div>
-          <div class="mb-3">
-            <input type="file" class="form-control" id="local" required />
+            <input type="email" class="form-control" id="floatingInput" placeholder="Email" required/>
+            <label for="floatingInput" class="form-label">Email</label>
           </div>
 
           <div class="row">
             <div class="col-3 col-md-4 col-xl-12">
-              <h3>Categorias</h3>
+              <h3>Preferências</h3>
               <div class="col-3 col-md-4 col-xl-12">
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
@@ -135,49 +127,7 @@
                 </div>
               </div>
             </div>
-
-            <div class="col-12 col-md-12 col-xl-12">
-              <h3>Classificação</h3>
-              <div class="col-12 col-md-12 col-xl-12">
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Livre</label>
-                </div>
-              </div>
-              <div class="col-12 col-md-12 col-xl-12">
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Acima de 10 anos</label>
-                </div>
-              </div>
-              <div class="col-12 col-md-12 col-xl-12">
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Acima de 12 anos</label>
-                </div>
-              </div>
-              <div class="col-12 col-md-12 col-xl-12">
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Acima de 14 anos</label>
-                </div>
-              </div>
-              <div class="col-12 col-md-12 col-xl-12">
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Acima de 16 anos</label>
-                </div>
-              </div>
-              <div class="col-12 col-md-12 col-xl-12">
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Acima de 18 anos</label>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <button type="submit" class="btn btn-primary" style="margin: 10px;">Cadastrar Evento</button>
+          <button type="submit" class="btn btn-primary" style="margin: 10px;">Cadastrar</button>
         </form>
         <!-- Fim do formulário -->
       </div>
