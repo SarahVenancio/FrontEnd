@@ -20,8 +20,7 @@ Este projeto tem como objetivo apresentar um protótipo para um site de eventos 
  ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
  ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ## Autores
-- Sarah Dias Venâncio - SarahVenancio - sarah.venancio.senaisp@gmail.com
-- Lígia da Costa Silva - Ligia-Costa - ligia.costa.senai@gmail.com
-- Julia de Moura Rosa - JuliaRosa0401 - juliarosa040108@gmail.com
+| [<img src="https://avatars.githubusercontent.com/u/165316263?v=4" width=115><br><sub>Sarah Dias Venâncio</sub>](https://github.com/SarahVenancio) |  [<img src="https://avatars.githubusercontent.com/u/165319550?v=4" width=115><br><sub>Lígia da Costa Silva</sub>](https://github.com/Ligia-Costa) |  [<img src="https://avatars.githubusercontent.com/u/165318420?s=100&v=4" width=115><br><sub>Julia de Moura Rosa</sub>](https://github.com/JuliaRosa0401) |
+| :---: | :---: | :---: |
 ## Licença
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
